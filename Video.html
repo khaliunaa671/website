@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div style="text-align:center">
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button>
+    <br><br>
+    <video id="videol" width="420">
+      <source src="mov_bbb.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML video.
+  </video>
+</div>
+
+<script> }
+var myVideo = document.getElementById("videol");
+
+function playPause() {
+    if (myVideo.paused)
+      myVideo.play();
+    else
+      myVideo.pause();
+}
+ 
+function makeBig() {
+      myVideo.width = 560;
+}
+
+function makeSmall() {
+      myVideo.width = 320;
+}
+function makeNormal() {
+      myVideo.width = 420;
+}
+</script>
+
+<p>Video courtesy of <a href="{
+    "ns": "yt",
+    "el": "detailpage",
+    "cpn": "4lAljXz9uY-LiP4V",
+    "ver": 2,
+    "cmt": "7.615",
+    "fmt": "398",
+    "fs": "0",
+    "rt": "7.967",
+    "euri": "",
+    "lact": 0,
+    "cl": "730664130",
+    "mos": 0,
+    "state": "8",
+    "volume": 100,
+    "cbr": "Chrome",
+    "cbrver": "133.0.0.0",
+    "c": "WEB",
+    "cver": "2.20250222.10.01",
+    "cplayer": "UNIPLAYER",
+    "cos": "Windows",
+    "cosver": "10.0",
+    "cplatform": "DESKTOP",
+    "hl": "en_US",
+    "cr": "US",
+    "len": "231.481",
+    "fexp": "v1,23986022,18622,434717,60173,67153,133212,14625955,11684381,53408,9105,18310,4420,2821,78212,8479,19339,18644,9663,3383,1823,47210,12968,2156,65,10501,3025,391,12774,13730,9252,3479,2024,495,6731,2819,961,5335,921,10490,207,3190,3063,238,1400,7415,1204,3602,1320,2,1899,1397,2,1227,1694,188,1413,2422,370",
+    "feature": "related",
+    "afmt": "251",
+    "muted": "0",
+    "docid": "tdmVnJY2Kr8",
+    "ei": "4Ie-Z97oFqiw5t0P3vPuwQs",
+    "plid": "AAYvAwTPuYFQJcM6",
+    "referrer": "https://www.youtube.com/watch?v=YvEcM7WzW6w",
+    "sdetail": "rv:YvEcM7WzW6w",
+    "sourceid": "yw",
+    "of": "uV11TV6lpnTBwFH2kc9-lA",
+    "vm": "CAIQABgEOjJBSHFpSlRJQXg0VDhOOS1MRnRVTHh1MWxibUl6bDRwOUF5NnN4Mlo2Y3loTDZ0eVZnZ2JSQUZVQTZSVGNtaml4MGZzYmhYQnZaSE9QelI4TVJZd1VZbTZBVnI5cGF0eUZ3WU1EY0RnQm5aTFk5Z2p3VmtmNXA5VlpMNTF5M0FQUkd0SlVBQbgBAQ",
+    "vct": "7.615",
+    "vd": "231.481",
+    "vpl": "0.000-7.615",
+    "vbu": "0.000-29.396",
+    "vbs": "0.000-231.481",
+    "vpa": "0",
+    "vsk": "0",
+    "ven": "0",
+    "vpr": "1",
+    "vrs": "4",
+    "vns": "2",
+    "vec": "null",
+    "vemsg": "",
+    "vvol": "0.5314959995066479",
+    "vdom": "1",
+    "vsrc": "1",
+    "vw": "1228",
+    "vh": "691",
+    "lct": "7.522",
+    "lsk": false,
+    "lmf": false,
+    "lbw": "9106818.850",
+    "lhd": "0.512",
+    "lst": "0.000",
+    "laa": "itag_251_type_3_src_reslicemakeSliceInfosMediaBytes_segsrc_reslicemakeSliceInfosMediaBytes_seg_3_range_736201-756133_time_39.0-40.0_off_177452_len_19933_end_1",
+    "lva": "itag_398_type_3_src_reslicemakeSliceInfosMediaBytes_segsrc_reslicemakeSliceInfosMediaBytes_seg_5_range_2591145-2591849_time_29.4-29.4_off_457685_len_705_end_1",
+    "lar": "itag_251_type_3_src_reslicemakeSliceInfosMediaBytes_segsrc_reslicemakeSliceInfosMediaBytes_seg_3_range_736201-756133_time_39.0-40.0_off_177452_len_19933_end_1",
+    "lvr": "itag_398_type_3_src_reslicemakeSliceInfosMediaBytes_segsrc_reslicemakeSliceInfosMediaBytes_seg_5_range_2591145-2591849_time_29.4-29.4_off_457685_len_705_end_1",
+    "laq": "0",
+    "lvq": "0",
+    "lab": "0.000-40.001",
+    "lvb": "0.000-29.396",
+    "ismb": 4170000,
+    "relative_loudness": "5.490",
+    "optimal_format": "720p",
+    "user_qual": 0,
+    "release_version": "youtube.player.web_20250224_01_RC00",
+    "debug_videoId": "tdmVnJY2Kr8",
+    "0sz": "false",
+    "op": "",
+    "yof": "false",
+    "dis": "",
+    "gpu": "ANGLE_(Intel,_Intel(R)_UHD_Graphics_730_(0x00004692)_Direct3D11_vs_5_0_ps_5_0,_D3D11)",
+    "ps": "desktop-polymer",
+    "debug_playbackQuality": "hd720",
+    "debug_date": "Wed Feb 26 2025 11:18:00 GMT+0800 (Ulaanbaatar Standard Time)",
+    "origin": "https://www.youtube.com",
+    "timestamp": 1740539880392
+  }" target="_blank">Yg cham shig</a>.</p>
+
+</body>
+</html>
